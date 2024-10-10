@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "types": ["node"]
+  },
+  "include": ["eslint.config.mjs", "lint-staged.config.js", "prettier.config.js", "src", "tsup.config.ts"],
+  "exclude": ["coverage", "dist", "node_modules"]
+}
